@@ -9,5 +9,10 @@ compontents (sans-IO style) to do the following things:
 
 Analytics to come later, possibly.
 
+Usage notes
+-----------
+
+`snailed` uses `defusedxml` to be somewhat safe against malicious input.
+
 I wrote these scripts to support the [snail-me](https://github.com/rixx/snail-me) project, and I wanted the file parsing
 to be reusable.
