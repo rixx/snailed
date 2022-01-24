@@ -48,7 +48,7 @@ class Segment:
         self.best_game_time = None
         self.pb_real_time = None
         self.pb_game_time = None
-        self.attempts = []
+        self.times = []
 
 
 class SegmentTime:
@@ -105,7 +105,7 @@ class History:
                     real_time=real_time,
                     game_time=game_time,
                 )
-                segment.attempts.append(time)
+                segment.times.append(time)
                 if attempt:
                     attempt.times.append(time)
                 else:
